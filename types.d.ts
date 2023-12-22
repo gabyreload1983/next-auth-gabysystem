@@ -7,4 +7,53 @@ interface UserLogin {
   role: string;
   api_version: string;
   imageUrl: string;
+  accessToken: string;
+}
+
+interface Order {
+  nrocompro: string;
+  codigo: string;
+  nombre: string;
+  direccion: string;
+  telefono: string;
+  tiposerv: number;
+  codiart: string;
+  descart: string;
+  esquema: string;
+  facvta: string;
+  garantia: number;
+  provedor: string;
+  faccpa: string;
+  garantiap: number;
+  serie: string;
+  operador: string;
+  equipo: string;
+  ingresado: string;
+  falla: string;
+  accesorios: string;
+  detalles: string;
+  estado: number;
+  seteado: string;
+  diag: number;
+  diagnosticado: string;
+  ubicacion: number;
+  ubicado: string;
+  diagnostico: string;
+  prioridad: number;
+  repahasta: string;
+  estimada: string;
+  tecnico: string;
+  asignado: string;
+  costo: string;
+  egresado: string;
+  vienede: string;
+  hacia: string;
+  opcional: string;
+  pendiente: string;
+  nroenvio: string;
+  estrma: string;
+  textoenvio: string;
+  textorespuesta: string;
+  nrorecibo: string;
+  products: Array;
 }
