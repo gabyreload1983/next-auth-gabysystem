@@ -2,17 +2,6 @@ import axios from "axios";
 import type { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
-interface UserLogin {
-  _id: string;
-  first_name: string;
-  last_name: string;
-  email: string;
-  code_technical: string;
-  role: string;
-  api_version: string;
-  imageUrl: string;
-}
-
 export const options: NextAuthOptions = {
   providers: [
     CredentialsProvider({
